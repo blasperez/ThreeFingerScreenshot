@@ -1,17 +1,1 @@
-// Top-level build file where you can add configuration options common to all sub-projects/modules.
-buildscript {
-    ext.kotlin_version = '1.9.22' // Versión razonable, se puede ajustar
-    repositories {
-        google()
-        mavenCentral()
-    }
-    dependencies {
-        classpath 'com.android.tools.build:gradle:8.5.0' // Versión compatible con Gradle 9.x
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
-    }
-}
-
-
-task clean(type: Delete) {
-    delete rootProject.buildDir
-}
+compileOnly 'de.robv.android.xposed:api:82'
