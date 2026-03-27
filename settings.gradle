@@ -10,7 +10,6 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        maven { url 'https://api.xposed.info/module/libs/' }
     }
 }
 rootProject.name = "ThreeFingerScreenshot"
